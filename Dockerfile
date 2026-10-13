@@ -1,6 +1,6 @@
 
 # Build the application
-FROM gradle:8.10.2-jdk21 AS build
+FROM gradle:8.10.2-jdk17 AS build
 WORKDIR /app
 
 COPY . .
